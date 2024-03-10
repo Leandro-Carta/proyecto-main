@@ -82,3 +82,139 @@ ul li:hover {
 #imagen-main:hover{
     box-shadow: 30px 30px 40px rgb(51, 50, 50);
 }
+
+
+@media screen and (max-width: 1500px){
+    .navegador{
+        display: flex;
+        justify-content: end;
+        text-align: flex-end;
+       padding: 20px;
+    }
+}
+
+
+
+@media screen and (max-width: 1200px){
+    
+#titulo-superior{
+    margin-top: 50px;
+}
+
+.navegador{
+    display: flex;
+    justify-content: end;
+    text-align: flex-end;
+   padding: 20px;
+}
+    #texto-main{
+        width: 90%;
+        text-align: justify;
+    }
+
+    #imagen-main{
+        display: none;        
+    }
+
+    ul li{
+    margin-right: 10px;
+    margin-left: 10px;
+    font-size: 17px;
+}
+ }
+
+ @media screen and (max-width: 850px){
+    
+#texto-main{
+    display: flex;
+    width: 90%;
+   justify-content: center;
+    align-items: center;
+}
+
+
+ul li{
+    font-size: 15px;
+}
+
+ }
+
+
+ @media screen and (max-width: 650px){
+
+
+.navegador{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+}
+
+   ul li{
+    margin:10px;    
+    font-size: 12px;
+   }
+
+
+ }
+
+
+ @media screen and (max-width:450px){
+
+
+    .navegador{
+        display: flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 5px;
+          }
+
+
+ul li{
+    display: inline-flex;
+    margin-top: 15px;
+    margin-right: 15px;
+    font-size: 10px;
+    margin-bottom: 10px;
+    
+}
+
+
+ #texto-main{
+    font-size: 15px;
+    margin-top: 30px
+    
+
+ }
+
+ #titulo-superior{
+margin-top: 30px;
+    font-size: 50px;
+ }
+
+
+}
+
+
+@media screen and (max-width:350px){
+
+    .navegador{
+        display: inline-flex;
+        justify-content: center;
+        text-align: center;
+        margin-top: 15px;
+         
+    }
+
+    ul li a{
+        display: inline-block;
+        margin-top: 30px;
+        font-size: 10px;
+    }
+}
+
+
+
+
+
+
+
