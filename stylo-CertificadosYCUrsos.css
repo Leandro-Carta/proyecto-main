@@ -1,0 +1,68 @@
+
+.navegador{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-bottom: 50px;
+  
+   
+
+}
+
+.navegador ul{
+    text-decoration: none;
+    display: flex;
+    flex-direction: row;
+    margin-top: 100px;
+    margin-bottom: 50px;
+  
+
+}
+
+.navegador ul li a{
+    text-decoration: none;
+    font-size: 30px;
+    color: rgb(0, 0, 0);   
+    display: flex;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+.navegador ul li a:hover{
+    color: rgb(212, 212, 108);
+}
+
+
+.Certificados{
+    width:40%;
+    margin-top: 50px;
+    margin-right: 50px;
+    margin-left: 50px; 
+}
+
+
+
+
+
+
+@media only screen and (max-width: 1350px){
+
+    .navegador ul li a {
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 15px;
+    }
+
+ 
+
+.Certificados{
+    width: 20%;
+   }
+
+
+
+
+
+}

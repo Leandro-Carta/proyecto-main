@@ -191,6 +191,7 @@ line-height: 50px;
  footer{
   display: flex;
   height: 100px;
+  text-align: center;
   align-items: center;
     
 
@@ -199,7 +200,7 @@ line-height: 50px;
  #texto-footer{
   display: flex;
   font-size: 20px;
-  text-align: end;
+  text-align: center;
   margin-bottom: 10px;
  }
 
@@ -245,7 +246,7 @@ line-height: 50px;
       text-align: center;
       justify-content: center;
       margin-bottom: 10px;
-      text-justify: auto;
+      
      }
     
 }
@@ -279,6 +280,8 @@ line-height: 50px;
       display: flex;
       height: 100px;
       align-items: center;
+      text-align: center;
+      justify-content: center;
         
     
      }
@@ -302,7 +305,6 @@ line-height: 50px;
 
   
   
-
   #titulo-principal {
     font-size:20px;
     margin-top: 10px;
@@ -330,14 +332,22 @@ line-height: 50px;
       height: 100px;
       align-items: center;
       justify-content: center;
-        
+      text-align: center;       
     
      }
     
-     #texto-footer{
+.footer{
+  font-display: flex;
+  text-align: center;
+
+}
+
+
+     .footer #texto-footer{
       display: flex;
-      font-size: 15px;
+      font-size: 10px;
       text-align: center;
+      align-items: center;
       justify-content: center;
       margin-bottom: 10px;
      }
