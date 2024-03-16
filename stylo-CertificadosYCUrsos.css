@@ -36,12 +36,19 @@
 }
 
 
-.Certificados{
-    width:40%;
-    margin-top: 50px;
-    margin-right: 50px;
-    margin-left: 50px; 
+.certificadosYCursos{
+    display: flex;
+    align-items: center;
+    flex-direction: column;
 }
+
+.Certificados img{
+    display: flex;
+    width: 100%;
+
+}
+
+
 
 
 
@@ -77,13 +84,17 @@
         direction: none;
         margin-right: 10px;
         margin-left: 10px;
-        font-size: 10px;
+        font-size: 30px;
     }
 
  
 
 .Certificados{
-    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    width: 90%;
     margin-top: 10px;
     margin-right: 10px;
     margin-left: 10px;
@@ -95,4 +106,15 @@
 
 
 
+}
+
+
+@media only screen and (max-width: 850px){
+
+    .navegador ul li a{
+        flex-direction: row;
+        font-size: 10px;
+        margin-left: 5px;
+        margin-right: 5px;
+    }
 }
