@@ -11,6 +11,7 @@
 }
 
 .navegador ul{
+  
     text-decoration: none;
     display: flex;
     flex-direction: row;
@@ -49,17 +50,46 @@
 
 @media only screen and (max-width: 1350px){
 
+    .navegador{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+}
+
+    .navegador ul{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+    margin-top: 30px;
+    list-style-type: none;
+}
+
     .navegador ul li a {
-        margin-right: 5px;
-        margin-left: 5px;
-        font-size: 15px;
+        justify-content: center;
+    text-align: center;
+    align-items: center;
+    margin-bottom: 15px;
+        text-align: center;
+        direction: none;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 10px;
     }
 
  
 
 .Certificados{
-    width: 20%;
+    width: 40%;
+    margin-top: 10px;
+    margin-right: 10px;
+    margin-left: 10px;
    }
+
+   
 
 
 

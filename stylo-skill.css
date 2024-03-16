@@ -26,7 +26,7 @@ font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
 .navegador ul{
     display: flex;
     flex-direction: row;
-    margin-top: 100px;
+    margin-top: 50px;
     margin-bottom: 50px;
   
 
@@ -60,14 +60,15 @@ main{
     align-items: center;
     text-align: center;
     flex-direction: column;
-    margin-top: 100px;
-    margin-bottom: 70px;
+    margin-top: 70px;
+    margin-bottom: 50px;
 }
 
 
 .imagenes-skilles {
      display: flex;
      justify-content: center;
+     margin-bottom: px;
      width:100%;
 }
 
@@ -96,7 +97,7 @@ width:12%;
 
 
 .imagen-git{
-    width: 70%;   
+    width: 60%;   
 }
 
 .imagen-git:hover{
@@ -138,9 +139,9 @@ width:12%;
 @media only screen and (max-width: 1350px){
 
     .navegador ul li a {
-        margin-right: 5px;
-        margin-left: 5px;
-        font-size: 15px;
+        margin-right: 10px;
+        margin-left: 10px;
+        font-size: 30px;
     }
 
 
@@ -151,6 +152,10 @@ width:12%;
 
 #habilidades-blandas{
     font-size: 15px;
+}
+
+.imagen-git{
+    width: 40%;   
 }
 
 .footer{
@@ -171,5 +176,48 @@ width:12%;
 
 
 
+@media only screen and (max-width: 750px){
+
+    .navegador{
+margin-bottom: 15px;
+    }
 
 
+h1{
+    margin-top: 15px;
+}
+
+    .navegador ul li a {
+        margin-right: 3px;
+        margin-left: 3px;
+        font-size: 15px;
+    }
+
+}
+
+
+
+
+@media only screen and (max-width: 390px){
+
+
+    .navegador ul li a {
+        margin-right: 5px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+}
+
+
+
+@media only screen and (max-width: 290px){
+
+
+    .navegador ul li a {
+        margin-right: 3px;
+        margin-left: 5px;
+        font-size: 10px;
+    }
+
+}
